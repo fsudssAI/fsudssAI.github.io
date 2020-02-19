@@ -1,0 +1,778 @@
+/* ------- Globals -------- */
+body{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(29, 29, 29);
+}
+
+#home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#waves{
+    position: relative;
+    width: 100%;
+    height: 24vh;
+    background-image: url(../img/waves.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#people{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #373737;
+    background-repeat: repeat;
+}
+
+#news{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #272727;
+}
+
+#publications{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #373737;
+}
+
+#allpublications{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #272727;
+}
+
+h1{    /* Home Header */
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    height: auto;
+    width: 50vw;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: Azonix;
+    color: #319da5;
+    font-weight: 100;
+}
+
+h2{    /* Section Header */
+    font-family: "Ubuntu";
+    color: white;
+    font-size: 35px;
+}
+
+h3{    /* People Classifications Header */
+    font-family: "Ubuntu";
+    color: white;
+    font-size: 25px;
+}
+
+h4{    /* People's Names */
+    font-family: "Roboto", sans-serif;
+    color: white;
+    transform: translateX(-8%);
+    width: 120%;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.header-underline{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    height: 5px;
+    background-color: #319da5a2;
+}
+
+/* ------- Fonts -------- */
+@font-face{
+    font-family: Azonix;
+    src: url(../fonts/Azonix-1VB0.otf);
+}
+
+/* --------- SCROLL BAR --------- */
+::-webkit-scrollbar {
+    width: 10px;                                  
+    height: 10px;
+    background-color: transparent;
+}
+/* Add a thumb */                               
+::-webkit-scrollbar-thumb {
+    background: rgb(94, 94, 94);
+}
+
+/* ------- Navigation Bar -------- */
+#navbar{
+    z-index: 100;
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    width: 650px;
+    height: auto;
+    color: rgb(214, 214, 214);
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #363636a1;
+    border-radius: 100px;
+    display: none;
+    transition: .3s ease-in-out;
+}
+
+#navbar a{
+    font-size: 17px;
+    padding: 0px 1.5%;
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    font-weight: 400;
+    transition: .2s ease-in-out;
+}
+
+#small-navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 100;
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    background-color: #363636e7;
+    color: rgb(214, 214, 214);
+    box-shadow: 0px 5px 5px rgba(26, 26, 26, 0.596);
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+
+#small-navbar a{
+    font-size: 17px;
+    padding: 0px 2.3%;
+    line-height: 2;
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    font-weight: 400;
+    transition: .2s ease-in-out;
+}
+
+
+/* ------- Home Section -------- */
+
+#homeh1{
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    height: auto;
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+    font-size: 60px;
+    font-family: Azonix;
+    color: #319da5;
+    font-weight: 100;
+    display: none;
+}
+
+#homep{
+    position: relative;
+    top: 30%;
+    left: 50%;
+    width: 80%;
+    max-width: 750px;
+    transform: translate(-50%);
+    text-align: center;
+    color: rgb(214, 214, 214);
+    font-size: 22px;
+    font-family: 'Ubuntu';
+    line-height: 1.7;
+    display: none;
+}
+
+#icons{
+    position: relative;
+    transform: translate(-50%);
+    height: 25%;
+    width: 55vw;
+    background-color: transparent;
+    top: 45%;
+    left: 50%;
+    text-align: center;
+}
+
+#icons img{
+    height: 70px;
+    margin: 4%;
+    
+}
+
+#dsslogo{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    min-width: 150px;
+    width: 11vw;
+    display: none;
+}
+
+#fsulogo{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    width: 12%;
+    min-width: 150px;
+    display: none;
+}
+
+#powerlines{
+    z-index: -1;
+    position: absolute;
+    background-image: url(../img/wpowerlines.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3;
+}
+
+
+/* ------- People Section -------- */
+
+.round-headshot{
+    border-radius: 100%;
+    width: 100%;
+}
+
+.member a:hover{
+    color: #319da5;
+}
+/* ------- News Section -------- */
+
+.swiper-container {
+    width: 70%;
+    height: 400px;
+}
+
+.swiper-button-prev{
+    margin-left: 8%;
+    color: white;
+    outline: none;
+}
+
+.swiper-button-next{
+    margin-right: 8%;
+    color: white;
+    outline: none;
+}
+
+.swiper-pagination-bullet{
+    background-color: #319da5;
+}
+
+.news-box{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+}
+
+.news-box h1{
+    color: #319da5;
+    font-family: "Ubuntu";
+    font-weight: 600;
+    font-size: 25px;
+    top: 15%;
+}
+
+.news-box p{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 0;
+    line-height: 1.7;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+}   
+
+
+/* ------- Publications Section -------- */
+
+.recent-pub{
+    position: relative;
+    float: right;
+    width: 90%;
+}
+
+.recent-pub h3{
+    position: relative;
+    float: left;
+    font-size: 22px;
+}
+
+.recent-pub span{
+    color: #319da5; 
+    font-weight: 200;
+
+}
+
+.recent-pub p{
+    position: relative;
+    line-height: 1;
+    width: 100%;
+    float: left;
+    color: rgb(184, 184, 184);
+    font-family: "Roboto", sans-serif;
+}
+
+.fa-file-pdf{
+    position: relative;
+    float: left;
+    color: rgb(235, 235, 235);
+    font-size: 25px;
+    margin-left: 13%;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.fa-file-pdf:hover{
+    color: rgb(160, 160, 160);
+}
+
+.number{
+    position: relative;
+    float: left;
+    background-color: rgb(46, 46, 46);
+    border-radius: 50%;
+    margin-left: 3%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 2;
+    font-family: "Ubuntu", sans-serif;
+    color: #319da5; 
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#allpublications-btn{
+    text-decoration: none;
+    color: white;
+    border: solid white 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding: 10px 10px;
+    transition: all .2s ease;
+}
+
+#allpublications-btn:hover{
+    background-color: white;
+    color: rgb(48, 48, 48);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------- Publications Page -------- */
+
+.publication-row{
+    overflow: hidden;
+    height: 190px;
+    width: auto;
+    max-width: 80%;
+    min-width: 50%;
+    padding-left: 10px;
+    border: solid rgba(70, 70, 70, 0) 2px;
+    background-color: rgb(33, 33, 33);
+    transition: height .5s ease-in-out;
+}
+
+.publication-btn{
+    background-color: transparent;
+    border: solid rgb(211, 211, 211) 2px;
+    outline: none;
+    padding: 5px;
+    color: rgb(211, 211, 211);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.publication-btn:hover{
+    transform: scale(1.1);
+    color: rgb(41, 41, 41);
+    background-color: rgb(211, 211, 211);
+}
+
+#patents-btn{
+    display: none;
+}
+
+#books-btn{
+    display: none;
+}
+
+.expand{
+    height: 400px;
+
+}
+
+.publication-col{
+    margin-bottom: 0;
+    margin-top:20px;
+    margin-bottom: 20px; 
+    padding: 0; 
+    min-width: 450px;
+    max-height: 150px;
+}
+
+.publication-box{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    min-width: 400px;
+    height: 100%;
+    max-height: 155px;
+    overflow: hidden;
+}
+
+.publication-box img{
+    position: relative;
+    float: left;
+    height: 150px;
+    min-height: 150px;
+}
+
+h5{
+    position: relative;
+    width: 73%;
+    font-family: "Ubuntu", sans-serif;
+    padding-left: 15px;
+    color: #319da5; 
+    font-size: 18px;
+    float: left;
+}
+.publication-desc{
+    position: relative;
+    float: left;
+    width: 73%;
+    padding-left: 15px;
+    min-height: 110px;
+    font-size: 15px;
+    color: white;
+    line-height: 1.3;
+    font-family: "Roboto", sans-serif;
+}
+
+.publication-desc span{
+    color: rgb(165, 165, 165);
+}
+
+
+
+
+
+
+/* ------- Media Queries -------- */
+
+@media screen and (min-width: 1600px) {  /* Extra Large */
+
+    .member{
+        margin-bottom: 10%;
+    }
+
+    .member-col{
+        min-width: 160px;
+    }
+
+    .publication-header{
+        margin-left: 5%;
+    }
+    
+    .publication-row{
+        margin-left: 12%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1599px) {  /* Super Large */
+    .member{    
+        margin-bottom: 10%;
+    }
+
+    .member-col{
+        min-width: 160px;
+    }
+
+    .publication-header{
+        margin-left: 2%;
+    }
+
+    #patents-row{
+        height: 200px;
+    }
+
+    #books-row{
+        height: 400px;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {  /* Large */
+
+    #icons{
+        bottom: 3%;
+        width: 70%;
+    }
+
+    #icons img{
+        margin: 4%;
+        
+    }
+
+    .member{
+        min-width: 130px;
+        max-width: 140px;
+        margin-bottom: 10%;
+    }
+
+    .publication-header{
+        margin-left: 2%;
+    }
+
+    #patents-row{
+        height: 200px;
+    }
+
+    #books-row{
+        height: 400px;
+    }
+
+    .publication-row{
+        max-width: 85%;
+    }
+
+  }
+
+@media screen and (min-width: 776px) and (max-width: 991px) {    /* Medium */
+    #homeh1 {
+        font-size: 4.5vh;
+        top: 30%;
+    }
+
+    #homep{
+        font-size: 2vh;
+        top: 35%;
+    }
+
+    #icons{
+        width: 70%;
+        bottom: 4%;
+    }
+
+    #icons img{
+        margin: 4%; 
+    }
+
+    .member{
+        min-width: 120px;
+        padding-left: 5%;
+        margin-bottom: 3%;
+    }
+    
+    .publication-header{
+        margin-left: 2%;
+    }
+
+    #patents-row{
+        height: 200px;
+    }
+
+    #books-row{
+        height: 600px;
+    }
+
+    .publication-row{
+        max-width: 88%;
+        
+    }
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 775px) {   /* Small */
+    #homeh1 {
+        font-size: 4vh;
+        top: 30%;
+    }
+
+    #homep{
+        font-size: 1.7vh;
+        top: 35%;
+    }
+
+    #icons{
+        top: 40%;
+    }
+
+    #icons img{
+        margin: 5%; 
+    }
+
+    .member{
+        max-width: 140px;
+        min-width: 130px;
+        margin-bottom: 20%;
+    }
+
+    #patents-row{
+        height: 200px;
+    }
+
+    #books-row{
+        height: 600px;
+    }
+
+    .publication-row{
+        max-width: 90%;
+        margin-left: 4%;
+    }
+
+
+  }
+
+  @media screen and (max-width: 575px) {   /* Extra Small */
+
+    h2{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    .swiper-button-next{
+        margin-right: 0%;
+        display: none;
+    }
+
+    .swiper-button-prev{
+        margin-left: 0%;
+        display: none;
+    }
+
+    .swiper-container{
+        width: 90%;
+    }
+
+    .news-box h1{
+        top: 15%;
+    }
+    
+    .news-box p{
+        top: 35%;
+        padding-left: 7%;
+        padding-right: 7%;
+    }   
+
+    #homeh1 {
+        font-size: 27px;
+        top: 27%;
+    }
+
+    #homep{
+        font-size: 13px;
+        top: 32%;
+    }
+
+    #icons{
+        top: 40%;
+    }
+
+    #icons img{
+        width: 40px;
+        height: auto;
+        margin: 5%; 
+    }
+
+    .member{
+        max-width: 130px;
+        margin-left: 33%;
+        margin-bottom: 5%;
+    }
+
+    #patents-row{
+        height: 200px;
+    }
+
+    #books-row{
+        height: 600px;
+    }
+
+    .publication-row{
+        min-height: 200px;
+    }
+
+    .publication-btn{
+        margin-top: 2%;
+    }
+
+    .publication-header{
+        margin-left: 4%;
+    }
+
+    .publication-row{
+        max-width: 90%;
+        margin-left: 4%;
+    }
+
+
+  }
+
+  .hidden{
+    transform: translateY(-150%);
+  }
