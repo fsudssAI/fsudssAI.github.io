@@ -444,14 +444,18 @@ h4{    /* People's Names */
 
 .publication-row{
     overflow: hidden;
-    height: 190px;
     width: auto;
+    height: 400px;
     max-width: 80%;
     min-width: 50%;
     padding-left: 10px;
     border: solid rgba(70, 70, 70, 0) 2px;
     background-color: rgb(33, 33, 33);
     transition: height .5s ease-in-out;
+}
+
+#patents-row, #books-row{
+    height: 200px;
 }
 
 .publication-btn{
@@ -476,13 +480,16 @@ h4{    /* People's Names */
     display: none;
 }
 
-#books-btn{
+#books-btn, #journals-btn{
     display: none;
 }
 
-.expand{
-    height: 400px;
+.expand-conf{
+    height: 1200px;
+}
 
+.expand-misc{
+    height: 600px;
 }
 
 .publication-col{

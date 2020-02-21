@@ -131,8 +131,8 @@ jQuery(function ($) { "use strict";
     })
 
     conferencesbtn.click(function(){
-        conferencesrow.toggleClass("expand");
-        if (conferencesrow.hasClass("expand")){
+        conferencesrow.toggleClass("expand-conf");
+        if (conferencesrow.hasClass("expand-conf")){
             conferencesbtn.text("Show Less");
         } else {
             conferencesbtn.text("Show All");
@@ -140,8 +140,8 @@ jQuery(function ($) { "use strict";
     })
 
     miscbtn.click(function(){
-        miscrow.toggleClass("expand");
-        if (miscrow.hasClass("expand")){
+        miscrow.toggleClass("expand-misc");
+        if (miscrow.hasClass("expand-misc")){
             miscbtn.text("Show Less");
         } else {
             miscbtn.text("Show All");
