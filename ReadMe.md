@@ -1,6 +1,7 @@
 # DSS Lab Website
 
 ### Update Log:
+- **(02/21/2020)** Added Alonzo, worked on "News" section and added journal thumbnails in "All Publications" page.
 - **(02/18/2020)** Added PDFs to "Publications" section, and added personal website links.
 - **(02/16/2020)** Worked on "Publications" section and added social media icons in "People" section.
 - **(02/15/2020)** Worked on "All Publications" page.

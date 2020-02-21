@@ -32,6 +32,10 @@ body{
     position: relative;
     width: 100%;
     height: auto;
+    background-image: url(../img/b2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
     background-color: #272727;
 }
 
@@ -91,6 +95,14 @@ h4{    /* People's Names */
     transform: translateX(-50%);
     left: 50%;
     height: 5px;
+    background-color: #319da5a2;
+}
+
+.header-underline2{
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    height: 10px;
     background-color: #319da5a2;
 }
 
@@ -272,6 +284,10 @@ h4{    /* People's Names */
     outline: none;
 }
 
+.swiper-button-prev:hover, .swiper-button-next:hover{
+    color: #319da5;
+}
+
 .swiper-button-next{
     margin-right: 8%;
     color: white;
@@ -287,6 +303,7 @@ h4{    /* People's Names */
     height: 100%;
     width: 100%;
     background-color: rgb(48, 48, 48);
+    border-radius: 20px;
 }
 
 .news-box h1{
@@ -295,6 +312,11 @@ h4{    /* People's Names */
     font-weight: 600;
     font-size: 25px;
     top: 15%;
+}
+
+.news-box span{
+    color: rgb(32, 32, 32);
+    font-weight: 200;
 }
 
 .news-box p{
