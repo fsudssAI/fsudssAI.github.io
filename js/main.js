@@ -1,5 +1,6 @@
 jQuery(function ($) { "use strict";
-    
+    $( document ).ready(function() {
+
     //Swiper Config
     var mySwiper = new Swiper ('.swiper-container', {
         // Optional parameters
@@ -147,5 +148,6 @@ jQuery(function ($) { "use strict";
             miscbtn.text("Show All");
         }
     })
-
+    
+    });
 });
