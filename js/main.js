@@ -123,8 +123,8 @@ jQuery(function ($) { "use strict";
     })
 
     journalsbtn.click(function(){
-        journalsrow.toggleClass("expand");
-        if (journalsrow.hasClass("expand")){
+        journalsrow.toggleClass("expand-journ");
+        if (journalsrow.hasClass("expand-journ")){
             journalsbtn.text("Show Less");
         } else {
             journalsbtn.text("Show All");
