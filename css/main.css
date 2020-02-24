@@ -588,12 +588,41 @@ h5{
         min-width: 160px;
     }
 
+    #journals-btn{
+        display: inline;
+    }
+
+    .publication-row{
+        height: 400px;
+        max-width: 84%;
+    }
+
+    #patents-row{
+        height: 200px;
+    }
+
+    #books-row{
+        height: 400px;
+    }
+
+    .publication-btn{
+        margin-top: 2%;
+    }
+
     .publication-header{
-        margin-left: 5%;
+        margin-left: 4%;
+    }
+
+    .expand-journ{
+        height: 600px;
+    }
+
+    .expand-conf{
+        height: 1800px;
     }
     
-    .publication-row{
-        margin-left: 12%;
+    .expand-misc{
+        height: 800px;
     }
 }
 
@@ -610,12 +639,42 @@ h5{
         margin-left: 2%;
     }
 
+    #journals-btn{
+        display: inline;
+    }
+
+    .publication-row{
+        height: 400px;
+        max-width: 92%;
+        margin-left: 4%;
+    }
+
     #patents-row{
         height: 200px;
     }
 
     #books-row{
         height: 400px;
+    }
+
+    .publication-btn{
+        margin-top: 2%;
+    }
+
+    .publication-header{
+        margin-left: 4%;
+    }
+
+    .expand-journ{
+        height: 600px;
+    }
+
+    .expand-conf{
+        height: 1800px;
+    }
+    
+    .expand-misc{
+        height: 800px;
     }
 
 }
@@ -642,6 +701,16 @@ h5{
         margin-left: 2%;
     }
 
+    #journals-btn{
+        display: inline;
+    }
+
+    .publication-row{
+        height: 400px;
+        max-width: 92%;
+        margin-left: 4%;
+    }
+
     #patents-row{
         height: 200px;
     }
@@ -650,8 +719,25 @@ h5{
         height: 400px;
     }
 
-    .publication-row{
-        max-width: 85%;
+    .publication-btn{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .publication-header{
+        margin-left: 4%;
+    }
+
+    .expand-journ{
+        height: 600px;
+    }
+
+    .expand-conf{
+        height: 1800px;
+    }
+    
+    .expand-misc{
+        height: 800px;
     }
 
   }
