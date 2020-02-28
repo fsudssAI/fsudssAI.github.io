@@ -1,6 +1,7 @@
 # DSS Lab Website
 
 ### Update Log:
+- **(02/27/2020)** Added courses in "Teaching" section.
 - **(02/23/2020)** Finished "All Publications" page.
 - **(02/21/2020)** Added Alonzo, worked on "News" section and added journal thumbnails in "All Publications" page.
 - **(02/18/2020)** Added PDFs to "Publications" section, and added personal website links.
