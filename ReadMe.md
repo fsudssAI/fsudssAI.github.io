@@ -1,6 +1,8 @@
 # DSS Lab Website
 
 ### Update Log:
+- **(02/27/2020)** Moved PDF icons to the end of the line and added links to titles in "Publications" section.
+                   Added links and animation to images in "People" section.
 - **(02/27/2020)** Added courses in "Teaching" section.
 - **(02/23/2020)** Finished "All Publications" page.
 - **(02/21/2020)** Added Alonzo, worked on "News" section and added journal thumbnails in "All Publications" page.

@@ -56,15 +56,22 @@ body{
 #teaching{
     position: relative;
     width: 100%;
-    height: auto;
-    background-color: #272727;;
+    height: 50vh;
+    background-color: #272727;
 }
 
 #resources{
     position: relative;
     width: 100%;
     height: 50vh;
-    background-color: #272727;;
+    background-color: #373737;
+}
+
+#positions{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: #272727;
 }
 
 h1{    /* Home Header */
@@ -280,11 +287,18 @@ h4{    /* People's Names */
 .round-headshot{
     border-radius: 100%;
     width: 100%;
+    transition: transform .2s ease-in-out;
 }
 
-.member a:hover{
-    color: #319da5;
+.round-headshot:hover{
+    transform: scale(1.1);
 }
+
+.member h4:hover, .member a:hover{
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
 /* ------- News Section -------- */
 
 .swiper-container {
@@ -360,12 +374,22 @@ h4{    /* People's Names */
     position: relative;
     float: left;
     font-size: 22px;
+    line-height: 1.4;
+}
+
+.recent-pub a{
+    color: white;
+}
+
+.recent-pub a:hover{
+    color: #319da5;
+    text-decoration: none;
+    transition: .1s ease-in-out;
 }
 
 .recent-pub span{
     color: #319da5; 
     font-weight: 200;
-
 }
 
 .recent-pub p{
@@ -378,11 +402,9 @@ h4{    /* People's Names */
 }
 
 .fa-file-pdf{
-    position: relative;
-    float: left;
     color: rgb(235, 235, 235);
-    font-size: 25px;
-    margin-left: 13%;
+    font-size: 20px;
+    margin-left: 30px;
     cursor: pointer;
     transition: all .2s ease;
 }
@@ -397,6 +419,7 @@ h4{    /* People's Names */
     background-color: rgb(46, 46, 46);
     border-radius: 50%;
     margin-left: 3%;
+    margin-top: 0.5%;
     width: 40px;
     height: 40px;
     text-align: center;
@@ -423,76 +446,17 @@ h4{    /* People's Names */
 }
 
 
-/* ------- Resources Section -------- */
-.resource-card{
-    height: 200px;
-}
-
 
 /* ------- Teaching Section -------- */
-.teaching-row{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 76%;
-    min-width: 1450px;
-}
-.teaching-col{
-    min-width: 330px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-}
-.teaching-card{
-    text-align: center;
-    height: 200px;
-    border-left: solid #24757a 6px;
-    border-right: solid #24757a  6px;
-    border-radius: 10px;
-    background-color: rgb(54, 54, 54);
-    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.377)
-}
 
-.teaching-card h2{
-    color: #319da5;
-    padding-top: 30px;
-    font-size: 25px;
-}
 
-.teaching-card p{
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 16px;
-    line-height: 1.5;
-}
 
-.teaching-card span{
-    color: rgb(168, 168, 168);
-    font-size: 14px;
-}
-
-.teaching-card a{
-    position: absolute;
-    transform: translateX(-50%);
-    padding: 5px 8px;
-    left: 50%;
-    bottom: 15px;
-    border-radius: 5px;
-    background-color: white;
-    color: #000000;
-    font-weight: 500;
-}
-
-.teaching-card a:hover{
-    text-decoration: none;
-    background-color: #24757a;
-    color: white;
-    transition: .2s ease-in-out;
-}
+/* ------- Resources Section -------- */
 
 
 
 
+/* ------- Positions Section -------- */
 
 
 
