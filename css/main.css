@@ -482,9 +482,7 @@ h4{    /* People's Names */
 
 
 
-/* ------- All Resources Page -------- */
-
-/* -- All News Section -- */
+/* ------- All News Page -------- */
 .allnews-row{
     max-width: 80%;
     margin: auto;
@@ -673,6 +671,7 @@ h5{
 
 @media screen and (min-width: 1600px) {  /* Extra Large */
 
+    /* ----- People Section -----*/
     .member{
         margin-bottom: 10%;
     }
@@ -681,6 +680,7 @@ h5{
         min-width: 160px;
     }
 
+    /* ----- All Articles Page -----*/
     .publication-row{
         height: 400px;
         max-width: 83%;
@@ -713,6 +713,8 @@ h5{
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1599px) {  /* Super Large */
+    
+    /* ----- People Section -----*/
     .member{    
         margin-bottom: 10%;
     }
@@ -725,6 +727,7 @@ h5{
         max-width: 80%;
     }
 
+    /* ----- All Articles Page -----*/
     #journals-btn{
         display: inline;
     }
@@ -770,20 +773,20 @@ h5{
         max-width: 70%;
         min-width: 750px;
     }
+    
+    /* ------ All News Page ------- */
+    .allnews-col{
+        padding-right: 0;
+    }
+    
+    .allnews-col p{
+        width: 83%;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {  /* Large */
 
-    #icons{
-        bottom: 3%;
-        width: 70%;
-    }
-
-    #icons img{
-        margin: 4%;
-        
-    }
-
+    /* ----- People Section -----*/
     .member{
         min-width: 130px;
         max-width: 140px;
@@ -794,6 +797,7 @@ h5{
         max-width: 80%;
     }
 
+    /* ----- All Articles Page -----*/
     #journals-btn{
         display: inline;
     }
@@ -833,9 +837,20 @@ h5{
         height: 800px;
     }
 
+    /* ----- All News Page ------*/
+    .allnews-col{
+        padding-right: 0;
+    }
+    
+    .allnews-col p{
+        width: 80%;
+    }
+
   }
 
 @media screen and (min-width: 776px) and (max-width: 991px) {    /* Medium */
+    
+    /* ----- Globals -----*/
     #homeh1 {
         font-size: 4.5vh;
         top: 30%;
@@ -846,15 +861,7 @@ h5{
         top: 35%;
     }
 
-    #icons{
-        width: 70%;
-        bottom: 4%;
-    }
-
-    #icons img{
-        margin: 4%; 
-    }
-
+    /* ----- People Section -----*/
     .member{
         min-width: 120px;
         padding-left: 5%;
@@ -865,6 +872,7 @@ h5{
         max-width: 80%;
     }
 
+    /* ----- All Articles Page -----*/
     .publication-header{
         margin-left: 2%;
     }
@@ -907,9 +915,25 @@ h5{
     .expand-misc{
         height: 1400px;
     }
+
+    /* ----- All News Page -----*/
+    .allnews-row{
+        max-width: 85%;
+    }
+    
+    .allnews-col{
+        padding-right: 0;
+    }
+    
+    .allnews-col p{
+        width: 75%;
+    }
+
   }
 
   @media screen and (min-width: 576px) and (max-width: 775px) {   /* Small */
+    
+    /* ----- Globals -----*/
     #homeh1 {
         font-size: 4vh;
         top: 30%;
@@ -920,14 +944,7 @@ h5{
         top: 35%;
     }
 
-    #icons{
-        top: 40%;
-    }
-
-    #icons img{
-        margin: 5%; 
-    }
-
+    /* ----- People Section -----*/
     .member{
         max-width: 140px;
         min-width: 130px;
@@ -938,6 +955,7 @@ h5{
         max-width: 95%;
     }
 
+    /* ----- All Articles Page -----*/
     .publication-header{
         margin-left: 2%;
     }
@@ -959,7 +977,7 @@ h5{
     #books-row{
         height: 600px;
     }
-
+    
     .publication-btn{
         margin-top: 2%;
         margin-bottom: 2%;
@@ -981,11 +999,35 @@ h5{
         height: 1400px;
     }
 
+    /* ----- All News Page -----*/
+    .allnews-row{
+        max-width: 85%;
+    }
+    
+    .allnews-col{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0;
+    }
+    
+    .allnews-col p{
+        transform: translateY(0);
+        top: 0;
+        width: 100%;
+    }
+
+    .allnews-col h2{
+        transform: translateY(0);
+        top: 0;
+        width: 100%;
+        text-align: center;
+    }
 
   }
 
   @media screen and (max-width: 575px) {   /* Extra Small */
 
+    /* ----- Globals -----*/
     h2{
         font-size: 25px;
     }
@@ -1004,16 +1046,7 @@ h5{
         top: 32%;
     }
 
-    #icons{
-        top: 40%;
-    }
-
-    #icons img{
-        width: 40px;
-        height: auto;
-        margin: 5%; 
-    }
-
+    /* ----- People Section -----*/
     .member{
         max-width: 130px;
         margin-left: 33%;
@@ -1025,6 +1058,7 @@ h5{
 
     }
 
+    /* ----- News Section -----*/
     .news-pbox, .news-h1box{
         float:none;
         width: 100%;
@@ -1038,7 +1072,7 @@ h5{
         padding-top: 15px;
     }
 
-
+    /* ----- All Articles Page -----*/
     #journals-btn{
         display: inline;
     }
@@ -1076,6 +1110,30 @@ h5{
     
     .expand-misc{
         height: 1400px;
+    }
+
+    /* ----- All News Page -----*/
+    .allnews-row{
+        max-width: 85%;
+    }
+    
+    .allnews-col{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0;
+    }
+    
+    .allnews-col p{
+        transform: translateY(0);
+        top: 0;
+        width: 100%;
+    }
+
+    .allnews-col h2{
+        transform: translateY(0);
+        top: 0;
+        width: 100%;
+        text-align: center;
     }
 
   }
