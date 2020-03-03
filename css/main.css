@@ -127,6 +127,23 @@ h4{    /* People's Names */
     background-color: #319da5a2;
 }
 
+.all-btn{
+    text-decoration: none;
+    color: white;
+    border: solid white 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 10px 15px;
+    transition: all .2s ease;
+}
+
+.all-btn:hover{
+    background-color: white;
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
 /* ------- Fonts -------- */
 @font-face{
     font-family: Azonix;
@@ -301,65 +318,65 @@ h4{    /* People's Names */
 
 /* ------- News Section -------- */
 
-.swiper-container {
-    width: 70%;
-    height: 400px;
+.news-row{
+    max-width: 60%;
+    margin: auto;
+    padding: 0;
 }
 
-.swiper-button-prev{
-    margin-left: 8%;
-    color: white;
-    outline: none;
+.news-col{
+    border-top: solid rgb(70, 70, 70) 2px;
+    padding-left: 2%;
+    padding-right: 2%;
+    min-height: 120px;
 }
 
-.swiper-button-prev:hover, .swiper-button-next:hover{
-    color: #319da5;
+.news-pbox{
+    position: relative;
+    transform: translateY(-50%);
+    top: 55%;
+    max-width: 75%;
+    float:left;
 }
 
-.swiper-button-next{
-    margin-right: 8%;
-    color: white;
-    outline: none;
-}
-
-.swiper-pagination-bullet{
-    background-color: #319da5;
-}
-
-.news-box{
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(48, 48, 48);
-    border-radius: 20px;
-}
-
-.news-box h1{
-    color: #319da5;
-    font-family: "Ubuntu";
-    font-weight: 600;
-    font-size: 25px;
-    top: 15%;
-}
-
-.news-box span{
-    color: rgb(32, 32, 32);
-    font-weight: 200;
-}
-
-.news-box p{
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin: 0;
+.news-row p{
+    position: relative;
     line-height: 1.7;
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: lighter;
     color: white;
+    text-align: left;
 }   
+
+.news-h1box{
+    position: relative;
+    transform: translateY(-50%);
+    top: 55%;
+    float:right;
+    width: 130px;
+}
+
+.news-row h1{
+    position: relative;
+    width: auto;
+    color: #37b2bb;
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+}
+
+.news-pbox a{
+    color: #39ccd6;
+    transition: color .1s ease;
+}
+
+.news-pbox a:hover{
+    color: #24838a;
+    text-decoration: none;
+}
+
 
 
 /* ------- Publications Section -------- */
@@ -401,18 +418,6 @@ h4{    /* People's Names */
     font-family: "Roboto", sans-serif;
 }
 
-.fa-file-pdf{
-    color: rgb(235, 235, 235);
-    font-size: 20px;
-    margin-left: 30px;
-    cursor: pointer;
-    transition: all .2s ease;
-}
-
-.fa-file-pdf:hover{
-    color: rgb(160, 160, 160);
-}
-
 .number{
     position: relative;
     float: left;
@@ -428,21 +433,6 @@ h4{    /* People's Names */
     color: #319da5; 
     font-weight: 600;
     font-size: 20px;
-}
-
-#allpublications-btn{
-    text-decoration: none;
-    color: white;
-    border: solid white 2px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    padding: 10px 10px;
-    transition: all .2s ease;
-}
-
-#allpublications-btn:hover{
-    background-color: white;
-    color: rgb(48, 48, 48);
 }
 
 
@@ -672,6 +662,10 @@ h5{
         min-width: 160px;
     }
 
+    .news-row{
+        max-width: 80%;
+    }
+
     #journals-btn{
         display: inline;
     }
@@ -735,6 +729,10 @@ h5{
         min-width: 130px;
         max-width: 140px;
         margin-bottom: 10%;
+    }
+
+    .news-row{
+        max-width: 80%;
     }
 
     #journals-btn{
@@ -804,6 +802,10 @@ h5{
         margin-bottom: 3%;
     }
     
+    .news-row{
+        max-width: 80%;
+    }
+
     .publication-header{
         margin-left: 2%;
     }
@@ -873,6 +875,10 @@ h5{
         margin-bottom: 20%;
     }
 
+    .news-row{
+        max-width: 95%;
+    }
+
     .publication-header{
         margin-left: 2%;
     }
@@ -929,30 +935,6 @@ h5{
         font-size: 22px;
     }
 
-    .swiper-button-next{
-        margin-right: 0%;
-        display: none;
-    }
-
-    .swiper-button-prev{
-        margin-left: 0%;
-        display: none;
-    }
-
-    .swiper-container{
-        width: 90%;
-    }
-
-    .news-box h1{
-        top: 15%;
-    }
-    
-    .news-box p{
-        top: 35%;
-        padding-left: 7%;
-        padding-right: 7%;
-    }   
-
     #homeh1 {
         font-size: 27px;
         top: 27%;
@@ -978,6 +960,25 @@ h5{
         margin-left: 33%;
         margin-bottom: 5%;
     }
+
+    .news-row{
+        max-width: 95%;
+
+    }
+
+    .news-pbox, .news-h1box{
+        float:none;
+        width: 100%;
+        min-width: 100%;
+        transform: translateY(0%);
+        top: 0;
+    }
+
+    .news-col h1{
+        text-align: center;
+        padding-top: 15px;
+    }
+
 
     #journals-btn{
         display: inline;
