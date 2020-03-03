@@ -485,16 +485,26 @@ h4{    /* People's Names */
 /* ------- All Resources Page -------- */
 
 /* -- All News Section -- */
-#allnews-row{
+.allnews-row{
+    max-width: 80%;
+    margin: auto;
+}
+
+.allnews-col{
 
 }
 
-#allnews-col{
-
+.allnews-row h2{
+    position: relative;
+    float:left;
+    padding-right: 40px;
+    font-size:20px;
+    color: rgb(0, 204, 211);
 }
 
-#allnews-col p{
+.allnews-col p{
     color: white;
+    float: left;
 }
 
 
