@@ -488,23 +488,35 @@ h4{    /* People's Names */
 .allnews-row{
     max-width: 80%;
     margin: auto;
+    border-top: solid grey 1px;
 }
 
 .allnews-col{
-
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.allnews-row h2{
+.allnews-col h2{
     position: relative;
+    transform: translateY(-50%);
+    top: 55%;
     float:left;
-    padding-right: 40px;
     font-size:20px;
+    height: auto;
+    width: 12%;
+    min-width: 140px;
     color: rgb(0, 204, 211);
 }
 
 .allnews-col p{
+    position: relative;
+    transform: translateY(-50%);
+    top: 55%;
     color: white;
     float: left;
+    width: 88%;
 }
 
 
