@@ -39,6 +39,13 @@ body{
     background-color: #272727;
 }
 
+#allnews{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: #272727;
+}
+
 #publications{
     position: relative;
     width: 100%;
@@ -60,11 +67,25 @@ body{
     background-color: #272727;
 }
 
+#allclasses{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: #272727;
+}
+
 #resources{
     position: relative;
     width: 100%;
     height: 50vh;
     background-color: #373737;
+}
+
+#allresources{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: #272727;
 }
 
 #positions{
@@ -461,6 +482,20 @@ h4{    /* People's Names */
 
 
 
+/* ------- All Resources Page -------- */
+
+/* -- All News Section -- */
+#allnews-row{
+
+}
+
+#allnews-col{
+
+}
+
+#allnews-col p{
+    color: white;
+}
 
 
 
@@ -474,7 +509,9 @@ h4{    /* People's Names */
 
 
 
-/* ------- Publications Page -------- */
+
+
+/* ------- All Publications Page -------- */
 
 .publication-row{
     overflow: hidden;

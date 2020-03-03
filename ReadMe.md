@@ -1,6 +1,7 @@
 # DSS Lab Website
 
 ### Update Log:
+- **(03/03/2020)** Added new page for "All News", "All Classes", and "All Resources".
 - **(03/02/2020)** Redesigned "News" section and added links.
 - **(02/28/2020)** Moved PDF icons to the end of the line and added links to titles in "Publications" section. Changed all PDF names back to original ones.
                    Added links and animation to images in "People" section.
