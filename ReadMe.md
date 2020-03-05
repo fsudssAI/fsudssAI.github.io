@@ -1,6 +1,8 @@
 # DSS Lab Website
 
 ### Update Log:
+- **(03/05/2020)** - Added content to "Positions" section.
+                   - Added content to "Resources" section.
 - **(03/03/2020)** - Added "All News" page. (https://dss-lab.github.io/page/news.html)
                    - Added "All Resources" page. (https://dss-lab.github.io/page/resources.html)
                    - Styled and added all news to "All News" page.
