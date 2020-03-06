@@ -483,6 +483,7 @@ h4{    /* People's Names */
     max-width: 400px;
     min-width: 400px;
     height: 400px;
+    margin-bottom: 60px;
 }
 .positions-box{
     width: 100%;
@@ -501,9 +502,9 @@ h4{    /* People's Names */
 
 .positions-box h2{
     color: rgb(241, 241, 241);
+    font-size: 22px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 20px;
     background-color: #267379;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.418);
 }
@@ -537,19 +538,22 @@ h4{    /* People's Names */
 .resources-row{
     max-width: 40%;
     margin: auto;
+    border: Solid red;
 }
 
 .resources-col{
-
+    margin: auto;
+    min-width: 250px;
+    min-height: 250px;
+    border: solid blue;
 }
 
 .resources-box{
-    width: 250px;
-    height: 350px;
-    float: left;
+    width: 100%;
     margin-left: 58px;
     margin-right: 58px;
     margin-bottom: 10px;
+    border: solid green;
 }
 
 .resources-box h3{
@@ -834,12 +838,6 @@ h5{
     /* ------- Positions Section -------- */
     .positions-row{
         max-width: 70%;
-        border: solid red;
-    }
-
-    .positions-col{
-        margin: auto;
-        margin-bottom: 40px;
     }
 
     /* ----- All Articles Page -----*/
@@ -914,13 +912,7 @@ h5{
 
     /* ------- Positions Section -------- */
     .positions-row{
-        max-width: 70%;
-        border: solid blue;
-    }
-
-    .positions-col{
-        margin: auto;
-        margin-bottom: 40px;
+        max-width: 80%;
     }
 
     /* ----- All Articles Page -----*/
@@ -996,6 +988,11 @@ h5{
     
     .news-row{
         max-width: 80%;
+    }
+
+    /* ------- Positions Section -------- */
+    .positions-row{
+        max-width: 70%;
     }
 
     /* ----- All Articles Page -----*/
@@ -1079,6 +1076,11 @@ h5{
 
     .news-row{
         max-width: 95%;
+    }
+
+    /* ------- Positions Section -------- */
+    .positions-row{
+        max-width: 70%;
     }
 
     /* ----- All Articles Page -----*/
@@ -1182,6 +1184,11 @@ h5{
     .news-row{
         max-width: 95%;
 
+    }
+
+    /* ------- Positions Section -------- */
+    .positions-row{
+        max-width: 100%;
     }
 
     /* ----- News Section -----*/
