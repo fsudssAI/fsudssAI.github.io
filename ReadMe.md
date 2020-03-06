@@ -1,6 +1,8 @@
 # DSS Lab Website
 
 ### Update Log:
+- **(03/06/2020)** - Changed name format in "People" section.
+                   - Added scroll animations to all page.
 - **(03/05/2020)** - Added content to "Positions" section.
                    - Added content to "Resources" section.
 - **(03/03/2020)** - Added "All News" page. (https://dss-lab.github.io/page/news.html)
