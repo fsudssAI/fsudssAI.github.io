@@ -78,13 +78,7 @@ body{
     position: relative;
     width: 100%;
     height: auto;
-    background-color: #373737;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: top;
-    background-attachment: fixed;
-    
+    background-color: #373737;   
 }
 
 #allpositions{
@@ -480,22 +474,21 @@ h4{    /* People's Names */
 
 /* ------- Positions Section -------- */
 .positions-row{
-    max-width: 60%;
+    max-width: 80%;
     margin: auto;
 }
 
 .positions-col{
-    
+    margin: auto;
+    max-width: 400px;
+    min-width: 400px;
+    height: 400px;
 }
 .positions-box{
-    width: 400px;
+    width: 100%;
     height: 400px;
     border-radius: 10px;
     background-color: rgb(46, 46, 46);
-    float: left;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-bottom: 50px;
     overflow: hidden;
     border-bottom: solid #267379 4px;
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.295);
@@ -838,6 +831,17 @@ h5{
         max-width: 80%;
     }
 
+    /* ------- Positions Section -------- */
+    .positions-row{
+        max-width: 70%;
+        border: solid red;
+    }
+
+    .positions-col{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
     /* ----- All Articles Page -----*/
     #journals-btn{
         display: inline;
@@ -906,6 +910,17 @@ h5{
 
     .news-row{
         max-width: 80%;
+    }
+
+    /* ------- Positions Section -------- */
+    .positions-row{
+        max-width: 70%;
+        border: solid blue;
+    }
+
+    .positions-col{
+        margin: auto;
+        margin-bottom: 40px;
     }
 
     /* ----- All Articles Page -----*/
