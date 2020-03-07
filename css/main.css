@@ -104,6 +104,14 @@ body{
     background-color: #272727;
 }
 
+footer{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    height: 40vh;
+}
+
 h1{    /* Home Header */
     position: absolute;
     top: 25%;
@@ -330,7 +338,6 @@ h4{    /* People's Names */
 
 
 /* ------- People Section -------- */
-
 .round-headshot{
     border-radius: 100%;
     width: 100%;
@@ -345,6 +352,12 @@ h4{    /* People's Names */
 .member h4:hover, .member a:hover{
     color: #37b2bb;
     text-decoration: none;
+}
+
+.people-lines{
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
 }
 
 /* ------- News Section -------- */
@@ -411,6 +424,30 @@ h4{    /* People's Names */
 
 
 /* ------- Publications Section -------- */
+.recent-pub-row{
+    max-width: 50%;
+    min-width: 1100px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.number{
+    position: relative;
+    float: left;
+    background-color: rgb(46, 46, 46);
+    border-radius: 50%;
+    margin-left: 3%;
+    margin-top: 0.5%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 2;
+    font-family: "Ubuntu", sans-serif;
+    color: #319da5; 
+    font-weight: 600;
+    font-size: 20px;
+}
 
 .recent-pub{
     position: relative;
@@ -447,23 +484,6 @@ h4{    /* People's Names */
     float: left;
     color: rgb(184, 184, 184);
     font-family: "Roboto", sans-serif;
-}
-
-.number{
-    position: relative;
-    float: left;
-    background-color: rgb(46, 46, 46);
-    border-radius: 50%;
-    margin-left: 3%;
-    margin-top: 0.5%;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 2;
-    font-family: "Ubuntu", sans-serif;
-    color: #319da5; 
-    font-weight: 600;
-    font-size: 20px;
 }
 
 
@@ -536,29 +556,23 @@ h4{    /* People's Names */
 
 /* ------- Resources Section -------- */
 .resources-row{
-    max-width: 40%;
+    max-width: 35%;
     margin: auto;
-    border: Solid red;
 }
 
 .resources-col{
     margin: auto;
     min-width: 250px;
-    min-height: 250px;
-    border: solid blue;
+    height: 180px;
 }
 
 .resources-box{
     width: 100%;
-    margin-left: 58px;
-    margin-right: 58px;
-    margin-bottom: 10px;
-    border: solid green;
 }
 
 .resources-box h3{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(224, 224, 224);
     transition: color .2s ease;
 }
@@ -581,8 +595,12 @@ h4{    /* People's Names */
 }
 
 
-
-
+/* ------- Footer -------- */
+.footer-lines{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 
 
 
@@ -840,6 +858,11 @@ h5{
         max-width: 70%;
     }
 
+    /* ------- Resources Section -------- */
+    .resources-row{
+        max-width: 45%;
+    }
+
     /* ----- All Articles Page -----*/
     #journals-btn{
         display: inline;
@@ -910,9 +933,20 @@ h5{
         max-width: 80%;
     }
 
+    /* ------- Publications Section -------- */
+    .recent-pub-row{
+        max-width: 50%;
+        min-width: 950px;
+    }
+
     /* ------- Positions Section -------- */
     .positions-row{
         max-width: 80%;
+    }
+
+    /* ------- Resources Section -------- */
+    .resources-row{
+        max-width: 55%;
     }
 
     /* ----- All Articles Page -----*/
@@ -990,9 +1024,25 @@ h5{
         max-width: 80%;
     }
 
+    /* ------- Publications Section -------- */
+    .recent-pub-row{
+        max-width: 80%;
+        min-width: 700px;
+    }
+
+    .number{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     /* ------- Positions Section -------- */
     .positions-row{
         max-width: 70%;
+    }
+
+    /* ------- Resources Section -------- */
+    .resources-row{
+        max-width: 75%;
     }
 
     /* ----- All Articles Page -----*/
@@ -1078,9 +1128,29 @@ h5{
         max-width: 95%;
     }
 
+    /* ------- Publications Section -------- */
+    .recent-pub-row{
+        max-width: 90%;
+        min-width: 500px;
+    }
+    
+    .number{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     /* ------- Positions Section -------- */
     .positions-row{
         max-width: 70%;
+    }
+
+    /* ------- Resources Section -------- */
+    .resources-row{
+        max-width: 75%;
+    }
+
+    .resources-col{
+        margin-bottom: 20px;
     }
 
     /* ----- All Articles Page -----*/
@@ -1186,11 +1256,6 @@ h5{
 
     }
 
-    /* ------- Positions Section -------- */
-    .positions-row{
-        max-width: 100%;
-    }
-
     /* ----- News Section -----*/
     .news-pbox, .news-h1box{
         float:none;
@@ -1203,6 +1268,34 @@ h5{
     .news-col h1{
         text-align: center;
         padding-top: 15px;
+    }
+
+    /* ------- Publications Section -------- */
+    .recent-pub-row{
+        max-width: 90%;
+        min-width: 400px;
+    }
+
+    .recent-pub{
+        width: 85%;
+    }
+
+    .number{
+        margin: 10px auto;
+    }
+
+    /* ------- Positions Section -------- */
+    .positions-row{
+        max-width: 100%;
+    }
+
+    /* ------- Resources Section -------- */
+    .resources-row{
+        max-width: 75%;
+    }
+
+    .resources-col{
+        margin-bottom: 25px;
     }
 
     /* ----- All Articles Page -----*/

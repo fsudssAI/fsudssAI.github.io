@@ -61,6 +61,25 @@ jQuery(function ($) { "use strict";
         duration: 700,
     });
 
+    //Simple Parallax
+    var image = document.getElementsByClassName('lines2');
+    var image2 = document.getElementsByClassName('lines');
+    new simpleParallax(image, {
+        scale: 1.7,
+        overflow: true,
+        delay: 0.4,
+        transition: 'ease-out',
+        
+    });
+
+    new simpleParallax(image2, {
+        scale: 1.5,
+        overflow: true,
+        delay: 0.4,
+        orientation: 'down right',
+        transition: 'ease-out',
+    });
+
     //Smooth Scrolling
     var scroll = new SmoothScroll('a[href*="#"]');
 
