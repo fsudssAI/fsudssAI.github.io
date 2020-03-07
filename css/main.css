@@ -301,7 +301,6 @@ h4{    /* People's Names */
 #icons img{
     height: 70px;
     margin: 4%;
-    
 }
 
 #dsslogo{
@@ -921,6 +920,15 @@ h5{
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {  /* Large */
+    /* ----- Globals -----*/
+    #icons{
+        width: 60%;
+        border: solid red;
+    }
+    
+    #icons img{
+        margin: 3.5%;
+    }
 
     /* ----- People Section -----*/
     .member{
@@ -1004,13 +1012,25 @@ h5{
     
     /* ----- Globals -----*/
     #homeh1 {
-        font-size: 4.5vh;
-        top: 30%;
+        width: 90%;
+        font-size: 5vh;
+        top: 25%;
     }
 
     #homep{
         font-size: 2vh;
-        top: 35%;
+        top: 30%;
+    }
+
+    #icons{
+        height: auto;
+        width: 50%;
+        top: 40%;
+    }
+    
+    #icons img{
+        height: 65px;
+        margin: 6%;
     }
 
     /* ----- People Section -----*/
@@ -1108,13 +1128,25 @@ h5{
     
     /* ----- Globals -----*/
     #homeh1 {
-        font-size: 4vh;
-        top: 30%;
+        width: 90%;
+        font-size: 5vh;
+        top: 25%;
     }
 
     #homep{
-        font-size: 1.7vh;
+        font-size: 2vh;
+        top: 30%;
+    }
+
+    #icons{
+        height: auto;
+        width: 60%;
         top: 35%;
+    }
+    
+    #icons img{
+        height: 60px;
+        margin: 6%;
     }
 
     /* ----- People Section -----*/
@@ -1227,21 +1259,33 @@ h5{
 
     /* ----- Globals -----*/
     h2{
-        font-size: 25px;
+        font-size: 6vw;
     }
 
     h3{
-        font-size: 22px;
+        font-size: 5vw;
     }
 
     #homeh1 {
-        font-size: 27px;
-        top: 27%;
+        width: 90%;
+        font-size: 8vw;
+        top: 25%;
     }
 
     #homep{
-        font-size: 13px;
-        top: 32%;
+        font-size: 4vw;
+        top: 30%;
+    }
+
+    #icons{
+        height: auto;
+        width: 80%;
+        top: 35%;
+    }
+    
+    #icons img{
+        height: 13vw;
+        margin: 6%;
     }
 
     /* ----- People Section -----*/
@@ -1253,7 +1297,6 @@ h5{
 
     .news-row{
         max-width: 95%;
-
     }
 
     /* ----- News Section -----*/
@@ -1268,16 +1311,29 @@ h5{
     .news-col h1{
         text-align: center;
         padding-top: 15px;
+        font-size: 5vw;
+    }
+
+    .news-col p{
+        font-size: 4vw;
     }
 
     /* ------- Publications Section -------- */
     .recent-pub-row{
         max-width: 90%;
-        min-width: 400px;
+        min-width: 300px;
     }
 
     .recent-pub{
         width: 85%;
+    }
+
+    .recent-pub h3{
+        font-size: 4vw;
+    }
+
+    .recent-pub p{
+        font-size: 3.5vw;
     }
 
     .number{
@@ -1287,6 +1343,23 @@ h5{
     /* ------- Positions Section -------- */
     .positions-row{
         max-width: 100%;
+    }
+
+    .positions-col{
+        min-width: 85%;
+        min-height: 350px;
+    }
+
+    .positions-box{
+        min-height: 350px;
+    }
+
+    .positions-box h2{
+        font-size: 5vw;
+    }
+
+    .positions-box p{
+        font-size: 4vw;
     }
 
     /* ------- Resources Section -------- */
