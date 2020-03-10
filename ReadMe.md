@@ -1,6 +1,9 @@
 # DSS Lab Website
 
 ### Update Log:
+- **(03/09/2020)** - Added recent news.
+                   - Added new conference papers.
+                   
 - **(03/07/2020)** - Added decorations to some sections.
                    - Fixed scaling for "Positions" section.
                    - Fixed scaling for "Resources" section.

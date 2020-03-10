@@ -640,9 +640,20 @@ h4{    /* People's Names */
     color: white;
     float: left;
     width: 88%;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
 }
 
+.allnews-col a{
+    color: #39ccd6;
+    transition: color .1s ease;
+}
 
+.allnews-col a:hover{
+    color: #24838a;
+    text-decoration: none;
+}
 
 
 
@@ -705,7 +716,7 @@ h4{    /* People's Names */
 }
 
 .expand-conf{
-    height: 1200px;
+    height: 1400px;
 }
 
 .expand-misc{
@@ -829,7 +840,7 @@ h5{
     }
 
     .expand-conf{
-        height: 1200px;
+        height: 1400px;
     }
     
     .expand-misc{
@@ -895,7 +906,7 @@ h5{
     }
 
     .expand-conf{
-        height: 1800px;
+        height: 2000px;
     }
     
     .expand-misc{
@@ -990,7 +1001,7 @@ h5{
     }
 
     .expand-conf{
-        height: 1800px;
+        height: 2000px;
     }
     
     .expand-misc{
@@ -1102,7 +1113,7 @@ h5{
     }
 
     .expand-conf{
-        height: 3400px;
+        height: 3800px;
     }
     
     .expand-misc{
@@ -1222,7 +1233,7 @@ h5{
     }
 
     .expand-conf{
-        height: 3400px;
+        height: 3800px;
     }
     
     .expand-misc{
@@ -1404,7 +1415,7 @@ h5{
     }
 
     .expand-conf{
-        height: 3400px;
+        height: 3800px;
     }
     
     .expand-misc{
