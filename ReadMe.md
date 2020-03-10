@@ -3,6 +3,7 @@
 ### Update Log:
 **(03/09/2020)**
 - Added "All Positions" page. (https://dss-lab.github.io/resources.html)
+- Added "All Classes" page. (https://dss-lab.github.io/classes.html)
 - Added content and animations to "All Positions" page.
 - Added animations to "All News" page.
 - Resized all thumbnails for faster loading time.
