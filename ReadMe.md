@@ -2,6 +2,10 @@
 
 ### Update Log:
 **(03/09/2020)**
+- Added "All Positions" page. (https://dss-lab.github.io/resources.html)
+- Resized all thumbnails for faster loading time.
+
+**(03/09/2020)**
 - Added recent news.
 - Added new conference papers.   
 
@@ -20,8 +24,8 @@
 - Added content to "Resources" section.
 
 **(03/03/2020)**
-- Added "All News" page. (https://dss-lab.github.io/page/news.html)
-- Added "All Resources" page. (https://dss-lab.github.io/page/resources.html)
+- Added "All News" page. (https://dss-lab.github.io/news.html)
+- Added "All Resources" page. (https://dss-lab.github.io/resources.html)
 - Styled and added all news to "All News" page.
 
 **(03/02/2020)**
@@ -52,7 +56,7 @@
 - Worked on "All Publications" page.
 
 **(02/14/2020)**
-- Added "All Publications" page. (https://dss-lab.github.io/page/publications.html)
+- Added "All Publications" page. (https://dss-lab.github.io/publications.html)
 
 **(02/12/2020)**
 - Worked on mobile version.
