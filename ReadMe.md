@@ -4,6 +4,7 @@
 **(03/09/2020)**
 - Added "All Positions" page. (https://dss-lab.github.io/resources.html)
 - Added content and animations to "All Positions" page.
+- Added animations to "All News" page.
 - Resized all thumbnails for faster loading time.
 
 **(03/09/2020)**
