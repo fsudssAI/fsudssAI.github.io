@@ -811,6 +811,17 @@ h5{
     font-weight: bold;
 }
 
+#allpositions a{
+    color: #37b2bb; 
+    font-weight: bold;
+    transition: color .2s ease;
+}
+
+#allpositions a:hover{
+    text-decoration: none;
+    color: #25787e; 
+}
+
 #grads{
     position: relative;
     width: 100%;
