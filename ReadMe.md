@@ -1,6 +1,11 @@
 # DSS Lab Website
 
 ### Update Log:
+**(03/11/2020)**
+- Fixed sections overlapping in "All Positions" page.
+- Fixed scaling for "All Positions" page.
+- Added all links to "All News" page.
+
 **(03/09/2020)**
 - Added "All Positions" page. (https://dss-lab.github.io/resources.html)
 - Added "All Classes" page. (https://dss-lab.github.io/classes.html)
@@ -71,7 +76,7 @@
 - Added Ali and Lei to "People" section. 
 - Added "Resources" section and some animations. 
 - Added a fixed navigation bar. 
-- Added resizing settings.
+- Added scaling settings.
 
 **(02/03/2020)** 
 - Added "News" section and some animations.

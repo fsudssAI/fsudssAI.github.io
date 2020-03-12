@@ -87,7 +87,6 @@ body{
     width: 100%;
     height: auto;
     background-color: #272727;
-    
 }
 
 #resources{
@@ -836,7 +835,7 @@ h5{
 #postdocs{
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: auto;
 }
 
 
@@ -967,6 +966,11 @@ h5{
     .allnews-col p{
         width: 83%;
     }
+
+    /* ----- All Positions Page -----*/
+    .allpositions-row{
+        max-width: 70%;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {  /* Large */
@@ -1054,6 +1058,11 @@ h5{
     
     .allnews-col p{
         width: 80%;
+    }
+    
+    /* ----- All Positions Page -----*/
+    .allpositions-row{
+        max-width: 80%;
     }
 
   }
@@ -1170,6 +1179,11 @@ h5{
     
     .allnews-col p{
         width: 75%;
+    }
+
+    /* ----- All Positions Page -----*/
+    .allpositions-row{
+        max-width: 85%;
     }
 
   }
@@ -1301,6 +1315,11 @@ h5{
         top: 0;
         width: 100%;
         text-align: center;
+    }
+
+    /* ----- All Positions Page -----*/
+    .allpositions-row{
+        max-width: 85%;
     }
 
   }
@@ -1485,7 +1504,10 @@ h5{
         text-align: center;
     }
 
-  }
+    /* ----- All Positions Page -----*/
+    .allpositions-row{
+        max-width: 90%;
+    }
 
   @media screen and (max-width: 470px){
       .publication-row img{
