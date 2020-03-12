@@ -794,10 +794,6 @@ h5{
     line-height: 1.6;
 }
 
-.allpositions-col{
-
-}
-
 #allpositions p{
     color: white;
     font-family: "Roboto", sans-serif;
@@ -977,7 +973,6 @@ h5{
     /* ----- Globals -----*/
     #icons{
         width: 60%;
-        border: solid red;
     }
     
     #icons img{
@@ -1508,13 +1503,13 @@ h5{
     .allpositions-row{
         max-width: 90%;
     }
+  }
 
   @media screen and (max-width: 470px){
       .publication-row img{
           display: none;
       }
   }
-
 
   .hidden{
     transform: translateY(-150%);
