@@ -110,6 +110,9 @@ footer{
     width: 100%;
     background-color: rgb(29, 29, 29);
     height: auto;
+    background-image: url(../img/waves2.png);
+    background-size: fit;
+    background-repeat: no-repeat;
 }
 
 h1{    /* Home Header */
@@ -597,20 +600,21 @@ h4{    /* People's Names */
 .contact-row{
     max-width: 70%;
     margin: auto;
-    border: solid red;
 }
 
 .contact-col{
-    height: 350px;
+    height: auto;
 }
 
 .contact-col h2{
+    color: white;
     font-size: 22px;
 }
 
 .contact-col p {
     color: white;
-    line-height: 1.7;
+    font-size: 16px;
+    line-height: 2;
 }
 
 .contact-col span{
@@ -619,19 +623,55 @@ h4{    /* People's Names */
 }
 
 .contact-col a{
-    float: none;
+    color: white;
+    transition: color .2s ease;
+    margin-left: 10px;
+    line-height: 2;
+}
+
+.contact-col a:hover{
+    color: #319da5;
+    text-decoration: none;
 }
 
 .contact-col i{
     font-size: 13px;
 }
 
-.footer-lines{
-    position: absolute;
-    left: 0;
-    top: 0;
+.footer-underline{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 100px;
+    height: 3px;
+    background-color: #319da5;
+    margin-bottom: 20px;
 }
 
+.vertical-line{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 200px;
+    background-color: rgb(112, 112, 112);
+}
+
+.leandro{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.leandro img{
+    transition: .3s ease;
+}
+
+.leandro img:hover{
+    transform: scale(1.2);
+    opacity: 0.7;
+}
 
 
 
