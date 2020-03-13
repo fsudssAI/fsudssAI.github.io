@@ -109,7 +109,7 @@ footer{
     overflow: hidden;
     width: 100%;
     background-color: rgb(29, 29, 29);
-    height: 40vh;
+    height: auto;
 }
 
 h1{    /* Home Header */
@@ -594,6 +594,38 @@ h4{    /* People's Names */
 
 
 /* ------- Footer -------- */
+.contact-row{
+    max-width: 70%;
+    margin: auto;
+    border: solid red;
+}
+
+.contact-col{
+    height: 350px;
+}
+
+.contact-col h2{
+    font-size: 22px;
+}
+
+.contact-col p {
+    color: white;
+    line-height: 1.7;
+}
+
+.contact-col span{
+    color: #319da5;
+    font-weight: bold;
+}
+
+.contact-col a{
+    float: none;
+}
+
+.contact-col i{
+    font-size: 13px;
+}
+
 .footer-lines{
     position: absolute;
     left: 0;
