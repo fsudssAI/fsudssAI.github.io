@@ -660,11 +660,14 @@ h4{    /* People's Names */
 
 .leandro{
     position: absolute;
-    left: 20px;
-    bottom: 20px;
+    height: 100px;
+    left: 30px;
+    bottom: 30px;
 }
 
 .leandro img{
+    position: absolute;
+    bottom: 0;
     transition: .3s ease;
 }
 

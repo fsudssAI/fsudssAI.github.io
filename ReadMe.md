@@ -2,6 +2,10 @@
 
 ### Update Log:
 **(03/11/2020)**
+- Added content to "Contact" section.
+- Added style and animations to "Contact" section.
+
+**(03/11/2020)**
 - Fixed sections overlapping in "All Positions" page.
 - Fixed scaling for "All Positions" page.
 - Added all links to "All News" page.
