@@ -1,77 +1,13 @@
 jQuery(function ($) { "use strict";
     $( document ).ready(function() {
 
-    //Swiper Config
-    var mySwiper = new Swiper ('.swiper-container', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
-        speed: 700,
-        effect: 'slide',
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-        },
-        slidesPerView: 3,
-        spaceBetween: 55,
-        autoheight: true,
-
-        // If we need pagination
-        pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        type: 'bullets',
-        },
-
-        // Navigation arrows
-        navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-
-        },
-
-        //Breakpoints
-        breakpoints: {
-            300: {
-                slidesPerView: 1,
-                spaceBetween: 20,
-            },
-            640: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-            },
-            768: {
-            slidesPerView: 2,
-            spaceBetween: 40,
-            },
-            1024: {
-            slidesPerView: 2,
-            spaceBetween: 50,
-            },
-            1400: {
-                slidesPerView: 3,
-                spaceBetween: 55,
-            },
-        }
-    });
-
-    //AOS Config
+    // AOS Config
     AOS.init({
         once: true,
         duration: 700,
     });
 
-    //Simple Parallax
-    var image = document.getElementsByClassName('lines2');
-    new simpleParallax(image, {
-        scale: 1.7,
-        overflow: true,
-        delay: 0.4,
-        transition: 'ease-out',
-        
-    });
-
-    //Smooth Scrolling
+    // Smooth Scrolling
     var scroll = new SmoothScroll('a[href*="#"]');
 
 
@@ -82,12 +18,9 @@ jQuery(function ($) { "use strict";
         $(this).css("color","rgb(214, 214, 214)")
     })
 
-
     $("#dsslogo").delay(200).fadeIn(700);
     $("#navbar").delay(200).fadeIn(700);
     $("#fsulogo").delay(200).fadeIn(700);
-    $("#homeh1").delay(300).fadeIn(700);
-    $("#homep").delay(500).fadeIn(700);
     
     //Hide Navigation Bar on scroll
     var prev = 0;

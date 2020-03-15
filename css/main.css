@@ -115,20 +115,6 @@ footer{
     background-repeat: no-repeat;
 }
 
-h1{    /* Home Header */
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%);
-    height: auto;
-    width: 50vw;
-    text-align: center;
-    font-size: 2.5vw;
-    font-family: Azonix;
-    color: #319da5;
-    font-weight: 100;
-}
-
 h2{    /* Section Header */
     font-family: "Ubuntu";
     color: white;
@@ -258,36 +244,29 @@ h4{    /* People's Names */
 
 
 /* ------- Home Section -------- */
-
-#homeh1{
+.home-row{
     position: relative;
     top: 25%;
-    left: 50%;
-    transform: translate(-50%);
-    height: auto;
-    width: 80%;
-    max-width: 1000px;
-    text-align: center;
+    max-width: 45%;
+    margin: auto;
+    border: solid red;
+}
+
+.home-col{
+
+}
+.home-col h1{
     font-size: 60px;
     font-family: Azonix;
     color: #319da5;
     font-weight: 100;
-    display: none;
 }
 
-#homep{
-    position: relative;
-    top: 30%;
-    left: 50%;
-    width: 80%;
-    max-width: 750px;
-    transform: translate(-50%);
-    text-align: center;
+#home-col p{
     color: rgb(214, 214, 214);
     font-size: 22px;
     font-family: 'Ubuntu';
     line-height: 1.7;
-    display: none;
 }
 
 #icons{
