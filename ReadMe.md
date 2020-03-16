@@ -2,6 +2,9 @@
 
 ### Update Log:
 **(03/15/2020)**
+- Added content and animations to "Teaching" section.
+
+**(03/15/2020)**
 - Resized "Home" section icons.
 - Added modal prototype for team members. 
 

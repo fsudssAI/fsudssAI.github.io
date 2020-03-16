@@ -64,7 +64,7 @@ body{
 #teaching{
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: auto;
     background-color: #272727;
 }
 
@@ -564,6 +564,52 @@ h4{    /* People's Names */
 
 
 /* ------- Teaching Section -------- */
+.teaching-row{
+    max-width: 60%;
+    margin: auto;
+}
+
+.teaching-col{
+    margin: auto;
+}
+
+.teaching-col h3{
+    font-size: 30px;
+    color: #319da5; 
+}
+
+.teaching-col h2{
+    margin-top: 20px;
+    font-family: "Roboto";
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.teaching-col p{
+    font-family: "Roboto";
+    color: rgb(175, 175, 175);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.teaching-col a{
+    font-family: "Roboto";
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border: solid white 2px;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.teaching-col a:hover{
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    background-color: white;
+}
 
 
 
@@ -610,6 +656,8 @@ h4{    /* People's Names */
 }
 
 .positions-box p{
+    font-family: "Roboto";
+    line-height: 1.6;
     color: white;
     padding: 20px 20px;
     height: auto;
@@ -1108,13 +1156,6 @@ h5{
     
     .expand-misc{
         height: 800px;
-    }
-
-    .teaching-row{
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 70%;
-        min-width: 750px;
     }
     
     /* ------ All News Page ------- */
