@@ -331,7 +331,7 @@ h4{    /* People's Names */
     width: 400px;
     height: 500px;
     border-radius: 53px;
-    background-color: #2b2b2b;
+    background-color: #272727;
     background-image: url(../img/waves3.png);
     background-repeat: no-repeat;
     background-position: top;
@@ -341,8 +341,8 @@ h4{    /* People's Names */
 .modal img{
     margin-top: 20px;
     border-radius: 100%;
-    width: 30%;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.253);
+    width: 110px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
 }
 
 .modal h1{
