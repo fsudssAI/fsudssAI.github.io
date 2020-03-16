@@ -249,12 +249,8 @@ h4{    /* People's Names */
     top: 25%;
     max-width: 45%;
     margin: auto;
-    border: solid red;
 }
 
-.home-col{
-
-}
 .home-col h1{
     font-size: 60px;
     font-family: Azonix;
@@ -262,45 +258,40 @@ h4{    /* People's Names */
     font-weight: 100;
 }
 
-#home-col p{
+.home-col p{
     color: rgb(214, 214, 214);
     font-size: 22px;
     font-family: 'Ubuntu';
     line-height: 1.7;
 }
 
-#icons{
-    position: relative;
-    transform: translate(-50%);
-    height: 25%;
-    width: 55vw;
-    background-color: transparent;
-    top: 45%;
-    left: 50%;
-    text-align: center;
+.icons{
+    margin-top: 150px;
 }
 
-#icons img{
+.home-col img{
     height: 70px;
-    margin: 4%;
+    margin: 5%;
 }
 
 #dsslogo{
     position: absolute;
     top: 3%;
-    left: 3%;
+    left: 2%;
     min-width: 150px;
     width: 11vw;
-    display: none;
 }
 
-#fsulogo{
+.fsulogo{
     position: absolute;
+    padding-top: 100px;
     bottom: 2%;
     right: 1%;
-    width: 12%;
-    min-width: 150px;
-    display: none;
+}
+
+.fsulogo img{
+    min-width: 170px;
+    width: 11vw;
 }
 
 #powerlines{
@@ -333,6 +324,37 @@ h4{    /* People's Names */
 .member h4:hover, .member a:hover{
     color: #37b2bb;
     text-decoration: none;
+}
+
+.modal{
+    overflow: visible;
+    width: 400px;
+    height: 550px;
+    border-radius: 53px;
+    background-color: #272727;
+    background-image: url(../img/waves3.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+.modal img{
+    margin-top: 20px;
+    border-radius: 100%;
+    width: 35%;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.253);
+}
+
+.modal p{
+    color: white;
+    margin-top: 100px;
+}
+
+.modal a.close-modal{
+    top: -30px;
+    right: -20px;
+    width: 15px;
+    background-image: url(../img/close.png);
 }
 
 /* ------- News Section -------- */
@@ -894,6 +916,10 @@ h5{
 /* ------- Media Queries -------- */
 
 @media screen and (min-width: 1600px) {  /* Extra Large */
+    /* ----- Home Section -----*/
+    .home-row{
+        min-width: 850px;
+    }
 
     /* ----- People Section -----*/
     .member{
@@ -938,6 +964,11 @@ h5{
 
 @media screen and (min-width: 1200px) and (max-width: 1599px) {  /* Super Large */
     
+    /* ----- Home Section -----*/
+    .home-row{
+        min-width: 850px;
+    }
+
     /* ----- People Section -----*/
     .member{    
         margin-bottom: 10%;
@@ -1024,13 +1055,22 @@ h5{
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {  /* Large */
-    /* ----- Globals -----*/
-    #icons{
-        width: 60%;
+    /* ----- Home Section -----*/
+    .home-row{
+        max-width: 70%;
     }
     
-    #icons img{
-        margin: 3.5%;
+    .home-col h1{
+        font-size: 50px;
+    }
+    
+    .home-col p{
+        font-size: 21px;
+    }
+    
+    .home-col img{
+        height: 65px;
+        margin: 4%;
     }
 
     /* ----- People Section -----*/
@@ -1118,27 +1158,23 @@ h5{
 
 @media screen and (min-width: 776px) and (max-width: 991px) {    /* Medium */
     
-    /* ----- Globals -----*/
-    #homeh1 {
-        width: 90%;
-        font-size: 5vh;
-        top: 25%;
-    }
-
-    #homep{
-        font-size: 2vh;
-        top: 30%;
-    }
-
-    #icons{
-        height: auto;
-        width: 50%;
-        top: 40%;
+    /* ----- Home Section -----*/
+    .home-row{
+        max-width: 80%;
+        min-width: 700px;
     }
     
-    #icons img{
+    .home-col h1{
+        font-size: 50px;
+    }
+    
+    .home-col p{
+        font-size: 21px;
+    }
+    
+    .home-col img{
         height: 65px;
-        margin: 6%;
+        margin: 4%;
     }
 
     /* ----- People Section -----*/
@@ -1239,27 +1275,27 @@ h5{
 
   @media screen and (min-width: 576px) and (max-width: 775px) {   /* Small */
     
-    /* ----- Globals -----*/
-    #homeh1 {
-        width: 90%;
-        font-size: 5vh;
-        top: 25%;
-    }
-
-    #homep{
-        font-size: 2vh;
-        top: 30%;
-    }
-
-    #icons{
-        height: auto;
-        width: 60%;
-        top: 35%;
+     /* ----- Home Section -----*/
+     .home-row{
+        max-width: 80%;
+        min-width: 550px;
     }
     
-    #icons img{
-        height: 60px;
-        margin: 6%;
+    .home-col h1{
+        font-size: 40px;
+    }
+    
+    .home-col p{
+        font-size: 19px;
+    }
+    
+    .icons{
+        margin-top: 100px;
+    }
+    
+    .home-col img{
+        height: 65px;
+        margin: 5% 8%;
     }
 
     /* ----- People Section -----*/
@@ -1384,26 +1420,27 @@ h5{
         font-size: 5vw;
     }
 
-    #homeh1 {
-        width: 90%;
-        font-size: 8vw;
-        top: 25%;
-    }
-
-    #homep{
-        font-size: 4vw;
-        top: 30%;
-    }
-
-    #icons{
-        height: auto;
-        width: 80%;
-        top: 35%;
+    /* ----- Home Section -----*/
+    .home-row{
+        max-width: 85%;
+        min-width: 300px;
     }
     
-    #icons img{
-        height: 13vw;
-        margin: 6%;
+    .home-col h1{
+        font-size: 7vw;
+    }
+    
+    .home-col p{
+        font-size: 4vw;
+    }
+    
+    .icons{
+        margin-top: 70px;
+    }
+    
+    .home-col img{
+        height: 55px;
+        margin: 4% 7%;
     }
 
     /* ----- People Section -----*/
@@ -1559,10 +1596,34 @@ h5{
     }
   }
 
-  @media screen and (max-width: 470px){
-      .publication-row img{
-          display: none;
-      }
+  @media screen and (max-width: 400px){
+    /* ----- Home Section -----*/
+    .home-row{
+        max-width: 85%;
+        min-width: 300px;
+        top: 20%;
+    }
+    
+    .home-col h1{
+        font-size: 7vw;
+    }
+    
+    .home-col p{
+        font-size: 4vw;
+    }
+    
+    .icons{
+        margin-top: 40px;
+    }
+    
+    .home-col img{
+        height: 40px;
+        margin: 4% 7%;
+    }
+
+    .publication-row img{
+        display: none;
+    }
   }
 
   .hidden{

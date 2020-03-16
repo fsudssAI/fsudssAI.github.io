@@ -1,6 +1,14 @@
 jQuery(function ($) { "use strict";
     $( document ).ready(function() {
-
+    
+    // People Modals
+    $(".modalbtn").click(function(event) {
+        $(this).modal({
+          fadeDuration: 250
+        });
+        return false;
+    });
+    
     // AOS Config
     AOS.init({
         once: true,

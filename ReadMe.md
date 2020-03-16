@@ -1,7 +1,11 @@
 # DSS Lab Website
 
 ### Update Log:
-**(03/11/2020)**
+**(03/15/2020)**
+- Resized "Home" section icons.
+- Added modal prototype for team members. 
+
+**(03/13/2020)**
 - Added content to "Contact" section.
 - Added style and animations to "Contact" section.
 
