@@ -1055,6 +1055,11 @@ h5{
         min-width: 160px;
     }
 
+    /* ------- Contact Section -------- */
+    .contact-row{
+        min-width: 1200px;
+    }
+
     /* ----- All Articles Page -----*/
     .publication-row{
         height: 400px;
@@ -1115,6 +1120,16 @@ h5{
     /* ------- Resources Section -------- */
     .resources-row{
         max-width: 45%;
+    }
+
+    /* ------- Contact Section -------- */
+    .contact-row{
+        min-width: 1200px;
+        margin: auto;
+    }
+    
+    .contact-col{
+        height: auto;
     }
 
     /* ----- All Articles Page -----*/
@@ -1218,6 +1233,16 @@ h5{
         max-width: 55%;
     }
 
+    /* ------- Contact Section -------- */
+    .contact-row{
+        max-width: 90%;
+        margin: auto;
+    }
+    
+    .contact-col{
+        height: auto;
+    }
+    
     /* ----- All Articles Page -----*/
     #journals-btn{
         display: inline;
@@ -1325,6 +1350,18 @@ h5{
     /* ------- Resources Section -------- */
     .resources-row{
         max-width: 75%;
+    }
+
+    /* ------- Contact Section -------- */
+    .contact-row{
+        max-width: 90%;
+        margin: auto;
+    }
+    
+    .contact-col{
+        margin: auto;
+        height: 200px;
+        min-width: 50%;
     }
 
     /* ----- All Articles Page -----*/
@@ -1451,6 +1488,38 @@ h5{
     .resources-col{
         margin-bottom: 20px;
     }
+
+    /* ------- Contact Section -------- */
+    .contact-row{
+        max-width: 90%;
+        margin: auto;
+        
+    }
+    
+    .contact-col{
+        height: auto;
+        min-width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .contact-menu{
+        display: none;
+    }
+
+    .leandro{
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .leandro img{
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        width: 50px;
+    }
+
+
 
     /* ----- All Articles Page -----*/
     .publication-header{
@@ -1642,6 +1711,36 @@ h5{
 
     .resources-col{
         margin-bottom: 25px;
+    }
+
+    /* ------- Contact Section -------- */
+    .contact-row{
+        max-width: 90%;
+        margin: auto;
+        
+    }
+    
+    .contact-col{
+        height: auto;
+        min-width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .contact-menu{
+        display: none;
+    }
+
+    .leandro{
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .leandro img{
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        width: 50px;
     }
 
     /* ----- All Articles Page -----*/

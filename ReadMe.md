@@ -2,6 +2,10 @@
 
 ### Update Log:
 **(03/15/2020)**
+- Fixed "Home" section icons not appearing.
+- Fixed scaling for "Contact" section. 
+
+**(03/15/2020)**
 - Added content and animations to "Teaching" section.
 
 **(03/15/2020)**
