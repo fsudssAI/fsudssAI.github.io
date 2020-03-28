@@ -3,7 +3,8 @@
 ### Update Log:
 **(03/26/2020)**
 - Added course link to Spring 2020 class.
-- Fixed scaling for "Teaching" section
+- Fixed scaling for "Teaching" section.
+- Added contect to "All Classes" page.
 
 **(03/26/2020)**
 - Fixed "Home" section icons not appearing.
