@@ -1,7 +1,11 @@
 # DSS Lab Website
 
 ### Update Log:
-**(03/15/2020)**
+**(03/26/2020)**
+- Added course link to Spring 2020 class.
+- Fixed scaling for "Teaching" section
+
+**(03/26/2020)**
 - Fixed "Home" section icons not appearing.
 - Fixed scaling for "Contact" section. 
 

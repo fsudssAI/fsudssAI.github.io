@@ -565,11 +565,14 @@ h4{    /* People's Names */
 /* ------- Teaching Section -------- */
 .teaching-row{
     max-width: 60%;
+    min-width: 1000px;
     margin: auto;
 }
 
 .teaching-col{
     margin: auto;
+    min-width: 300px;
+    margin-bottom: 50px;
 }
 
 .teaching-col h3{
@@ -583,6 +586,21 @@ h4{    /* People's Names */
     color: white;
     font-size: 17px;
     font-weight: normal;
+    transition: color .2s ease;
+}
+
+.teaching-col a{
+    margin-top: 20px;
+    font-family: "Roboto";
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+    transition: color .2s ease;
+}
+
+.teaching-col a:hover{
+    text-decoration: none;
+    color: #319da5;
 }
 
 .teaching-col p{
@@ -593,7 +611,7 @@ h4{    /* People's Names */
     margin-bottom: 20px;
 }
 
-.teaching-col a{
+.syllabus-btn a{
     font-family: "Roboto";
     color: white;
     font-size: 15px;
@@ -601,9 +619,10 @@ h4{    /* People's Names */
     border: solid white 2px;
     border-radius: 20px;
     padding: 5px 10px;
+    transition: .3s ease;
 }
 
-.teaching-col a:hover{
+.syllabus-btn a:hover{
     font-weight: 500;
     text-decoration: none;
     color: rgb(43, 43, 43);
@@ -1223,6 +1242,16 @@ h5{
         min-width: 950px;
     }
 
+    /* ------- Teaching Section -------- */
+    .teaching-row{
+        max-width: 80%;
+        min-width: 0%;
+    }
+    
+    .teaching-col{
+        min-width: 300px;
+    }
+
     /* ------- Positions Section -------- */
     .positions-row{
         max-width: 80%;
@@ -1340,6 +1369,16 @@ h5{
     .number{
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /* ------- Teaching Section -------- */
+    .teaching-row{
+        max-width: 80%;
+        min-width: 0%;
+    }
+    
+    .teaching-col{
+        min-width: 300px;
     }
 
     /* ------- Positions Section -------- */
@@ -1473,6 +1512,16 @@ h5{
     .number{
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /* ------- Teaching Section -------- */
+    .teaching-row{
+        max-width: 80%;
+        min-width: 0%;
+    }
+    
+    .teaching-col{
+        min-width: 300px;
     }
 
     /* ------- Positions Section -------- */
@@ -1680,6 +1729,16 @@ h5{
 
     .number{
         margin: 10px auto;
+    }
+
+    /* ------- Teaching Section -------- */
+    .teaching-row{
+        max-width: 80%;
+        min-width: 0%;
+    }
+    
+    .teaching-col{
+        min-width: 300px;
     }
 
     /* ------- Positions Section -------- */
