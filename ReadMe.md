@@ -5,6 +5,8 @@
 - Added course link to Spring 2020 class.
 - Fixed scaling for "Teaching" section.
 - Added contect to "All Classes" page.
+- Fixed scaling for "Home" section.
+- Added option to add image to news.
 
 **(03/26/2020)**
 - Fixed "Home" section icons not appearing.
