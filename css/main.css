@@ -285,11 +285,10 @@ h4{    /* People's Names */
     position: absolute;
     transform: translate(-50%, -50%);
     min-width: 800px;
-    bottom: 5%;
+    bottom: 10%;
     left: 50%;
     width: 50%;
     margin: auto;
-
 }
 
 .home-icons img{
@@ -512,7 +511,7 @@ h4{    /* People's Names */
     position: relative;
     transform: translateY(-50%);
     top: 55%;
-    max-width: 200px;
+    max-width: 400px;
     float:left;
     margin-left: 50px;
     padding-bottom: 10px;
@@ -749,7 +748,7 @@ h4{    /* People's Names */
 .resources-col{
     margin: auto;
     min-width: 250px;
-    height: 180px;
+    height: auto;
 }
 
 .resources-box{
@@ -780,6 +779,11 @@ h4{    /* People's Names */
     opacity: 0.8;
 }
 
+#lab-photo{
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.247);
+    width: 500px;
+}
 
 /* ------- Footer -------- */
 .contact-row{
@@ -902,6 +906,34 @@ h4{    /* People's Names */
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 400;
+}
+
+.allnews-imgbox{
+    width: 100%;
+    height: 300px;
+    min-width: 400px;
+    float: right;
+}
+
+.allnews-imgbox h2{
+    top: 50%;
+    float: left;
+}
+
+.allnews-imgbox p{
+    width: auto;
+    top: 50%;
+    float: left;
+}
+
+.allnews-imgbox img{
+    margin: 40px 0px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.151);
+    float: left;
+    margin-left: 50px;
 }
 
 .allnews-col a{
@@ -1101,7 +1133,9 @@ h5{
 
 @media screen and (min-width: 1600px) {  /* Extra Large */
     /* ----- Home Section -----*/
-    
+    .home-icons{
+        bottom: 2%;
+    }
 
     /* ----- People Section -----*/
     .member{
@@ -1235,6 +1269,10 @@ h5{
     .allnews-col p{
         width: 83%;
     }
+    
+    .allnews-imgbox p{
+        width: auto;
+    }
 
     /* ----- All Positions Page -----*/
     .allpositions-row{
@@ -1342,6 +1380,10 @@ h5{
         width: 80%;
     }
     
+    .allnews-imgbox p{
+        width: auto;
+    }
+
     /* ----- All Positions Page -----*/
     .allpositions-row{
         max-width: 80%;
@@ -1387,9 +1429,36 @@ h5{
         padding-left: 5%;
         margin-bottom: 3%;
     }
-    
+
+    /* ----- News Section -----*/
     .news-row{
         max-width: 90%;
+    }
+
+    .news-pbox, .news-h1box{
+        float:none;
+        width: 100%;
+        min-width: 100%;
+        transform: translateY(0%);
+        top: 0;
+    }
+
+    .news-h1box h1{
+        text-align: center;
+        padding-top: 15px;
+        font-size: 22px;
+    }
+    .news-pbox p{
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .news-imgbox{
+        transform: translateX(-50%);
+        left: 50%;
+        top: 0px;
+        margin: auto;
+        padding-bottom: 20px;
     }
 
     /* ------- Publications Section -------- */
@@ -1421,6 +1490,10 @@ h5{
     /* ------- Resources Section -------- */
     .resources-row{
         max-width: 75%;
+    }
+
+    #lab-photo{
+        width: 400px;
     }
 
     /* ------- Contact Section -------- */
@@ -1485,11 +1558,36 @@ h5{
     }
     
     .allnews-col{
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0;
     }
     
     .allnews-col p{
-        width: 75%;
+        text-align: center;
+        transform: translateY(0);
+        top: 0;
+        width: 100%;
+    }
+
+    .allnews-col h2{
+        transform: translateY(0);
+        top: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .allnews-imgbox{
+        height: auto;
+    }
+
+    .allnews-imgbox img{
+        position: relative;
+        width: 100%;
+        transform: translateX(-50%);
+        left: 50%;
+        margin: 0;
+        margin-bottom: 20px;
     }
 
     /* ----- All Positions Page -----*/
@@ -1606,6 +1704,10 @@ h5{
         margin-bottom: 20px;
     }
 
+    #lab-photo{
+        width: 400px;
+    }
+    
     /* ------- Contact Section -------- */
     .contact-row{
         max-width: 90%;
@@ -1694,6 +1796,7 @@ h5{
     }
     
     .allnews-col p{
+        text-align: center;
         transform: translateY(0);
         top: 0;
         width: 100%;
@@ -1704,6 +1807,19 @@ h5{
         top: 0;
         width: 100%;
         text-align: center;
+    }
+
+    .allnews-imgbox{
+        height: auto;
+    }
+
+    .allnews-imgbox img{
+        position: relative;
+        width: 100%;
+        transform: translateX(-50%);
+        left: 50%;
+        margin: 0;
+        margin-bottom: 20px;
     }
 
     /* ----- All Positions Page -----*/
@@ -1763,10 +1879,6 @@ h5{
         max-width: 130px;
         margin-left: 33%;
         margin-bottom: 5%;
-    }
-
-    .news-row{
-        max-width: 95%;
     }
 
     /* ----- News Section -----*/
@@ -1864,6 +1976,10 @@ h5{
         margin-bottom: 25px;
     }
 
+    #lab-photo{
+        width: 300px;
+    }
+
     /* ------- Contact Section -------- */
     .contact-row{
         max-width: 90%;
@@ -1946,6 +2062,7 @@ h5{
     }
     
     .allnews-col p{
+        text-align: center;
         transform: translateY(0);
         top: 0;
         width: 100%;
@@ -1956,6 +2073,19 @@ h5{
         top: 0;
         width: 100%;
         text-align: center;
+    }
+
+    .allnews-imgbox{
+        height: auto;
+    }
+
+    .allnews-imgbox img{
+        position: relative;
+        width: 100%;
+        transform: translateX(-50%);
+        left: 50%;
+        margin: 0;
+        margin-bottom: 20px;
     }
 
     /* ----- All Positions Page -----*/
