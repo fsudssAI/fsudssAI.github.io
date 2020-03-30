@@ -2,13 +2,13 @@
 
 ### Update Log:
 
-**(03/26/2020)**
+**(03/29/2020)**
 - Fixed news image size.
 - Added option to add image to "All News" page.
 - Fixed scaling for image in news section and all news page.
 - Added lab image to resources section.
 
-**(03/26/2020)**
+**(03/28/2020)**
 - Added course link to Spring 2020 class.
 - Fixed scaling for "Teaching" section.
 - Added contect to "All Classes" page.
