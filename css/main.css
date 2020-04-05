@@ -785,6 +785,15 @@ h4{    /* People's Names */
     width: 500px;
 }
 
+#lab-photo-desc{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    color: white;
+    font-size: 30px;
+}
+
 /* ------- Footer -------- */
 .contact-row{
     max-width: 70%;
@@ -1711,6 +1720,7 @@ h5{
     #lab-photo{
         width: 400px;
     }
+
     
     /* ------- Contact Section -------- */
     .contact-row{

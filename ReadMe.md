@@ -5,6 +5,7 @@
 - Fixed home icons
 - Fixed group photo date.
 - Modified publications folder.
+- Added caption to resources photo.
 
 **(03/29/2020)**
 - Fixed news image size.
