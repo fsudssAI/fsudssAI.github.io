@@ -1,6 +1,10 @@
 # DSS Lab Website
 
 ### Update Log:
+**(04/04/2020)**
+- Fixed home icons
+- Fixed group photo date.
+- Modified publications folder.
 
 **(03/29/2020)**
 - Fixed news image size.

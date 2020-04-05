@@ -1186,7 +1186,9 @@ h5{
 @media screen and (min-width: 1200px) and (max-width: 1599px) {  /* Super Large */
     
     /* ----- Home Section -----*/
-
+    .home-icons{
+        bottom: 2%;
+    }
 
     /* ----- People Section -----*/
     .member{    
@@ -1282,7 +1284,9 @@ h5{
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {  /* Large */
     /* ----- Home Section -----*/
-    
+    .home-icons{
+        bottom: 2%;
+    }
 
     /* ----- People Section -----*/
     .member{
@@ -1414,7 +1418,7 @@ h5{
     
     .home-icons{
         min-width: 700px;
-        bottom: 10%;
+        bottom: 2%;
         width: 80%;
     }
     
