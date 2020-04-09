@@ -56,8 +56,8 @@ jQuery(function ($) { "use strict";
     var miscrow = $("#misc-row");
 
     patentsbtn.click(function(){
-        patentsrow.toggleClass("expand");
-        if (patentsrow.hasClass("expand")){
+        patentsrow.toggleClass("expand-patent");
+        if (patentsrow.hasClass("expand-patent")){
             patentsbtn.text("Show Less");
         } else {
             patentsbtn.text("Show All");
@@ -65,8 +65,8 @@ jQuery(function ($) { "use strict";
     })
 
     booksbtn.click(function(){
-        booksrow.toggleClass("expand");
-        if (booksrow.hasClass("expand")){
+        booksrow.toggleClass("expand-book");
+        if (booksrow.hasClass("expand-book")){
             booksbtn.text("Show Less");
         } else {
             booksbtn.text("Show All");

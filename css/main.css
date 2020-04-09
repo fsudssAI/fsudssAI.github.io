@@ -992,6 +992,8 @@ h4{    /* People's Names */
     background-color: rgb(211, 211, 211);
 }
 
+/* This are the buttons to expand each container */
+/* Change to "display: block;" to make button visible */
 #patents-btn{
     display: none;
 }
@@ -1002,6 +1004,16 @@ h4{    /* People's Names */
 
 #books-btn{
     display: none;
+}
+
+/* This settings change the height of each container when the button is clicked */
+/* Change height depending on how many rows the container has. For each new row add 200px */
+.expand-patent{
+    height: 600px;
+}
+
+.expand-book{
+    height: 600px;
 }
 
 .expand-conf{
