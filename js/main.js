@@ -1,14 +1,6 @@
 jQuery(function ($) { "use strict";
     $( document ).ready(function() {
     
-    // People Modals
-    $(".modalbtn").click(function(event) {
-        $(this).modal({
-          fadeDuration: 250
-        });
-        return false;
-    });
-    
     // AOS Config
     AOS.init({
         once: true,
@@ -56,8 +48,8 @@ jQuery(function ($) { "use strict";
     var miscrow = $("#misc-row");
 
     patentsbtn.click(function(){
-        patentsrow.toggleClass("expand-patent");
-        if (patentsrow.hasClass("expand-patent")){
+        patentsrow.toggleClass("expand");
+        if (patentsrow.hasClass("expand")){
             patentsbtn.text("Show Less");
         } else {
             patentsbtn.text("Show All");
@@ -65,8 +57,8 @@ jQuery(function ($) { "use strict";
     })
 
     booksbtn.click(function(){
-        booksrow.toggleClass("expand-book");
-        if (booksrow.hasClass("expand-book")){
+        booksrow.toggleClass("expand");
+        if (booksrow.hasClass("expand")){
             booksbtn.text("Show Less");
         } else {
             booksbtn.text("Show All");
@@ -74,8 +66,8 @@ jQuery(function ($) { "use strict";
     })
 
     journalsbtn.click(function(){
-        journalsrow.toggleClass("expand-journ");
-        if (journalsrow.hasClass("expand-journ")){
+        journalsrow.toggleClass("expand");
+        if (journalsrow.hasClass("expand")){
             journalsbtn.text("Show Less");
         } else {
             journalsbtn.text("Show All");
@@ -83,8 +75,8 @@ jQuery(function ($) { "use strict";
     })
 
     conferencesbtn.click(function(){
-        conferencesrow.toggleClass("expand-conf");
-        if (conferencesrow.hasClass("expand-conf")){
+        conferencesrow.toggleClass("expand");
+        if (conferencesrow.hasClass("expand")){
             conferencesbtn.text("Show Less");
         } else {
             conferencesbtn.text("Show All");
@@ -92,8 +84,8 @@ jQuery(function ($) { "use strict";
     })
 
     miscbtn.click(function(){
-        miscrow.toggleClass("expand-misc");
-        if (miscrow.hasClass("expand-misc")){
+        miscrow.toggleClass("expand");
+        if (miscrow.hasClass("expand")){
             miscbtn.text("Show Less");
         } else {
             miscbtn.text("Show All");
