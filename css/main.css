@@ -902,7 +902,7 @@ h4{    /* People's Names */
 }
 
 #books-btn{
-    display: none;
+    display: inline;
 }
 
 .expand{
