@@ -871,7 +871,7 @@ h4{    /* People's Names */
     transition: height .5s ease-in-out;
 }
 
-#patents-row, #books-row{
+#patents-row{
     height: 200px;
 }
 
@@ -1063,10 +1063,6 @@ h5{
         height: 200px;
     }
 
-    #books-row{
-        height: 200px;
-    }
-
     .publication-header{
         margin-left: 1%;
     }
@@ -1131,10 +1127,6 @@ h5{
 
     #patents-row{
         height: 200px;
-    }
-
-    #books-row{
-        height: 400px;
     }
 
     .publication-header{
@@ -1229,10 +1221,6 @@ h5{
 
     #patents-row{
         height: 200px;
-    }
-
-    #books-row{
-        height: 400px;
     }
 
     .publication-btn{
@@ -1400,10 +1388,6 @@ h5{
 
     #patents-row{
         height: 200px;
-    }
-
-    #books-row{
-        height: 600px;
     }
 
     .publication-btn{
@@ -1624,10 +1608,6 @@ h5{
 
     #patents-row{
         height: 200px;
-    }
-
-    #books-row{
-        height: 600px;
     }
     
     .publication-btn{
@@ -1887,10 +1867,6 @@ h5{
 
     #patents-row{
         height: 200px;
-    }
-
-    #books-row{
-        height: 600px;
     }
 
     .publication-btn{
